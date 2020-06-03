@@ -1,0 +1,42 @@
+Adventure game:
+
+	Should the game have one class for bosses and one for 
+
+
+	1. create player
+	- Do I want to select char or allow player to be the char???
+	- Add heal and block feature 
+
+	2. monsters
+	- Randomize the monsters??
+		- use Array List to create monster then use random to select a monster from the list. 
+	- Names? 
+	- Levels 
+	
+
+
+	3. visit wildlands 
+	- In story, give players option to go to gym to train or go to wildlands to fight bosses.  
+	- Do I want random battles or to have 
+
+
+	4. visit shop (purchase heals)
+
+
+	5. Bosses
+	- Obtain money. 
+	- Should you have to battle multiple people before getting to boss as test? 
+
+
+	6. level up feature which enhaces HP and Attack Damage
+	- Should block be chance or automatic? Should it be partial or full? 
+
+
+	7. Save feature
+
+
+
+
+
+
+
