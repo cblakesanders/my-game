@@ -1,38 +1,66 @@
 Adventure game:
 
-	Should the game have one class for bosses and one for 
+	Should the game have one class for bosses and one for wildlands? 
 
 
 	1. create player
-	- Do I want to select char or allow player to be the char???
-	- Add heal and block feature 
+		CHANGE LATER - Do I want to select char or allow player to be the char???
+			     - Better the Name functionality.
+			     
+			     
+	Added 6/3/2020 - 1. Add heal 
+				For NOW - Set 1 potion to heal 10 HP; can hold 3 potions at a time. Might need to change this 
+				functionality later. 
+				
+			 2. block feature 
+			 	FOR NOW - this feature will block the entire attack, for now. might randomize later. 
+	
+	
 
 	2. monsters
-	- Randomize the monsters??
-		- use Array List to create monster then use random to select a monster from the list. 
-	- Names? 
-	- Levels 
+		CHANGE LATER - Randomize the monsters??
+			     - use Array List to create monster then use random to select a monster from the list. 
+			     - Names? 
+			     - Levels 
 	
 
 
 	3. visit wildlands 
-	- In story, give players option to go to gym to train or go to wildlands to fight bosses.  
-	- Do I want random battles or to have 
+		CHANGE LATER - In story, give players option to go to gym to train or go to wildlands to fight bosses.  
+			     - Do I want random battles or to have.
 
 
 	4. visit shop (purchase heals)
+		CHANGE LATER - Ability to buy heals.
+			     - One heal ability now; more to come.
 
 
 	5. Bosses
-	- Obtain money. 
-	- Should you have to battle multiple people before getting to boss as test? 
+		CHANGE LATER - Obtain money. 
+			     - Should you have to battle multiple people before getting to boss as test? 
 
 
-	6. level up feature which enhaces HP and Attack Damage
-	- Should block be chance or automatic? Should it be partial or full? 
+	6. level system 
+		CHANGE LATER - update max health after leveling up. 
+			     - update player current health to new max health. 
+	
+	7. Fight
+		CHANGE LATER - Add Check to player Health; don't drop below zero decide what to do if below zero.
+			     - Change heal functionality. 
+			     - When block read off current health for player and monster.
+			     - Should block be chance or automatic? Should it be partial or full? 
+			     - Give ability to show health during fight. 
+			     - potion needs a check on how many potions are in inventory. 
+			     
+		Added 6/3/2020 - Reset monster health 
+					- monster health still not updating as of now.
+		
+	9. Gameplay 
+		CHANGE LATER - Add wait funcitonality between lines for user experience. 
+			     - When giving players options in game, give the ability to show health. 
 
 
-	7. Save feature
+	9. Save feature
 
 
 
