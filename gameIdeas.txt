@@ -3,17 +3,20 @@ Adventure game:
 	Should the game have one class for bosses and one for wildlands? 
 
 
-	1. create player
+	1. Player
 		CHANGE LATER - Do I want to select char or allow player to be the char???
 			     - Better the Name functionality.
 			     
 			     
 	Added 6/3/2020 - 1. Add heal 
-				For NOW - Set 1 potion to heal 10 HP; can hold 3 potions at a time. Might need to change this 
+				FOR NOW - Set 1 potion to heal 10 HP; can hold 3 potions at a time. Might need to change this 
 				functionality later. 
 				
 			 2. block feature 
 			 	FOR NOW - this feature will block the entire attack, for now. might randomize later. 
+				
+	Added 6/5/2020 - 1. created a money account
+				-Added methods to show, add, and subtract money. 
 	
 	
 
@@ -31,8 +34,9 @@ Adventure game:
 
 
 	4. visit shop (purchase heals)
-		CHANGE LATER - Ability to buy heals.
-			     - One heal ability now; more to come.
+		CHANGE LATER - One heal ability now; more to come.
+		
+		Added 6/5/202 - 1. Created shop and ability to buy heals. 
 
 
 	5. Bosses
@@ -41,23 +45,29 @@ Adventure game:
 
 
 	6. level system 
-		CHANGE LATER - update max health after leveling up. 
-			     - update player current health to new max health. 
+		Added on 6/5/2020 - update max health after leveling up. 
+			     	  - update player current health to new max health. 
 	
 	7. Fight
-		CHANGE LATER - Add Check to player Health; don't drop below zero decide what to do if below zero.
+		CHANGE LATER - Don't drop below zero decide what to do if below zero.
 			     - Change heal functionality. 
-			     - When block read off current health for player and monster.
 			     - Should block be chance or automatic? Should it be partial or full? 
-			     - Give ability to show health during fight. 
-			     - potion needs a check on how many potions are in inventory. 
+			     
 			     
 		Added 6/3/2020 - Reset monster health 
-					- monster health still not updating as of now.
+			       		- monster health still not updating as of now.
+				
+		Added 6/5/2020 - Add Check to player Health.
+			       - When block read off current health for player and monster.
+			       - Give ability to show health during fight. 
+			       - Potion needs a check on how many potions are in inventory. 
+			       - Changed heal to check for player health too.
 		
-	9. Gameplay 
+	8. Gameplay 
 		CHANGE LATER - Add wait funcitonality between lines for user experience. 
 			     - When giving players options in game, give the ability to show health. 
+		
+		Added 6/5/2020 - Added gameplay to get player inital money and buy potions. 
 
 
 	9. Save feature
